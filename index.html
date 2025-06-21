@@ -1,102 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muhammed Buhari Horoz | Software Developer</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammed Buhari Horoz | Software Developer</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="logo">MBH</div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+        <iconify-icon icon="ph:sun-bold" class="sun"></iconify-icon>
+        <iconify-icon icon="ph:moon-bold" class="moon"></iconify-icon>
+      </button>
+    </div>
+  </nav>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="https://logo.clearbit.com/github.com"
-  />
-
-  </head>
-  <body>
-    <header class="header">
-      <h1>Muhammed Buhari Horoz</h1>
-      <h2>Software Developer</h2>
-    </header>
-
-    
-    <section class="about">
-      <h2 class="title">About Me</h2>
-      <pr id="aboutMe">
-        Passionate one about technology. I am a software developer with a strong
-        background in web development. I have experience in building responsive
-        and user-friendly web applications using modern technologies. I am a
-        quick learner and always eager to take on new challenges.
-      </p>
-    </section>
-    <section class="projects">
-      <h2> My Projects </h2>
-      <ul class="page-list">
-        <li>
-          <a class="other-pages" href="https://aliboron.tr/qr-code-component-main">
-            <img src="https://img.icons8.com/color/48/qr-code--v1.png" alt="QR Code Icon">
-            <span>Frontend Mentor | QR Code Component Page</span>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Muhammed Buhari Horoz</h1>
+        <p class="subtitle">Software Developer & System Architect</p>
+        <div class="social-links">
+          <a href="https://github.com/aliboron" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <iconify-icon icon="mdi:github"></iconify-icon>
           </a>
-        </li>
-        <li>
-          <a class="other-pages" href="https://aliboron.tr/qr-code-component-main">
-            <img src="https://img.icons8.com/color/48/qr-code--v1.png" alt="QR Code Icon">
-            <span>Frontend Mentor | QR Code Component Page</span>
+          <a href="https://linkedin.com/in-buhari-horoz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <iconify-icon icon="mdi:linkedin"></iconify-icon>
           </a>
-        </li>
-        <li>
-          <a class="other-pages" href="https://aliboron.tr/qr-code-component-main">
-            <img src="https://img.icons8.com/color/48/qr-code--v1.png" alt="QR Code Icon">
-            <span>Frontend Mentor | QR Code Component Page</span>
+          <a href="mailto:buhari.horoz@outlook.com" aria-label="Email">
+            <iconify-icon icon="mdi:email"></iconify-icon>
           </a>
-        </li>
-        <!-- Add more list items for other projects -->
-      </ul>
-    </section>
-    <section class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Desktop Development</li>
-        <li>WebDev</li>
-        <li>Tools: Git, Docker, AWS</li>
-      </ul>
-    </section>
-
-    <section class="contact">
-      <h2>Contact</h2>
-      <p class="counter">0</p>
-      <button id="clickOnIt">Click</button><br>
-      
-
-      <div class="social-container">
-        <a class="social-links" href="https://github.com/aliboron"
-          ><img
-            src="https://logo.clearbit.com/github.com"
-            alt="Logo of GitHub"
-        /></a>
-        <a
-          class="social-links"
-          href="https://www.linkedin.com/in/muhammed-buhari-horoz-0b11b9251/"
-          ><img
-            src="https://logo.clearbit.com/linkedin.com"
-            alt="Logo of LinkedIn"
-        /></a>
-        <a class="social-links" href="mailto:buhari.hrz@gmail.com"
-          ><img
-            src="https://img.icons8.com/?size=100&id=86875&format=png&color=000000"
-            alt="mail"
-        /></a>
+        </div>
       </div>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
-  </body>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>I'm a passionate software developer with a strong foundation in algorithms and system architecture. Currently pursuing my degree in Computer Technologies at Bilkent University, I specialize in creating efficient, scalable solutions that solve real-world problems.</p>
+        <div class="tech-stack">
+          <div class="tech-item">.NET</div>
+          <div class="tech-item">Python</div>
+          <div class="tech-item">Java</div>
+          <div class="tech-item">JavaScript</div>
+          <div class="tech-item">SQL</div>
+          <div class="tech-item">Linux</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <h2>Featured Work</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Periodic Table App</h3>
+          <p>Educational desktop application with dynamic visualization of the periodic table.</p>
+          <div class="project-tech">
+            <span>WPF</span>
+            <span>C#</span>
+            <span>XAML</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>Flight Booking System</h3>
+          <p>Responsive web platform for flight booking with real-time updates.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>Inventory Management</h3>
+          <p>Java-based system for tracking inventory and sales management.</p>
+          <div class="project-tech">
+            <span>Java</span>
+            <span>Swing</span>
+            <span>SQL</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <p>I'm always open to discussing new projects and opportunities.</p>
+      <a href="mailto:buhari.horoz@outlook.com" class="cta-button">Say Hello</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Muhammed Buhari Horoz. Built with passion.</p>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+
+    function initTheme() {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        setTheme(savedTheme);
+      } else {
+        setTheme(prefersDarkScheme.matches ? 'dark' : 'light');
+      }
+    }
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+    });
+
+    prefersDarkScheme.addListener((e) => {
+      if (!localStorage.getItem('theme')) {
+        setTheme(e.matches ? 'dark' : 'light');
+      }
+    });
+
+    initTheme();
+  </script>
+</body>
 </html>
